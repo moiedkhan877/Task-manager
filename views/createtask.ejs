@@ -1,0 +1,17 @@
+<%- include('partials/header')%>
+<%- include('partials/nav')%>
+
+<form class="m-auto w-25 mt-5" action="/createtask" method="post">
+<h1>Create-Task</h1>
+
+<input class="form-control mb-3" type="text" placeholder="Task" name="task">
+<input class="form-control mb-3" type="text" placeholder="task-detail" name="details">
+<input class="form-control mb-3" type="text" placeholder="task-date" name="datetask">
+    <button class="btn btn-danger w-30">Create task</button>
+</form>
+
+
+</form>
+
+
+<%- include('partials/footer.ejs')%>

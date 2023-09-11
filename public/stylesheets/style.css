@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+.signup-page{
+  width: 100%;
+  height: 100%;
+  border: 3px solid red;
+}
+
+form{
+  width: 30%;
+  height: 50%;
+  /* background-color: saddlebrown; */
+}
+
+.signup-page form{
+  border: 4px solid slateblue;
+  border-left-color: black;
+  border-top-color: springgreen;
+  border-right-color: green;
+}
+
+.signin-page{
+  width: 100%;
+  height: 100%;
+  border: 3px solid red;
+}
+
+form{
+  width: 30%;
+  height: 50%;
+  /* background-color: saddlebrown; */
+}
+
+.signin-page form{
+  border: 4px solid slateblue;
+  border-left-color: black;
+  border-top-color: springgreen;
+  border-right-color: green;
+}
+
+.tasklist{
+width: 100%;
+height: 100%;
+background-color: seagreen;
+}
